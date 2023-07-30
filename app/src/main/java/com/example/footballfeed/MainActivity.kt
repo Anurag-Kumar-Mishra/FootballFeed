@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
 
     private fun fetchdata() {
 
-        val url = "http://api.mediastack.com/v1/news?access_key=169e2a976ad776f0276416f9de304bc7&keywords=football&countries=br,gb,de,it&categories=sports"
+        val url = "http://api.mediastack.com/v1/news?access_key=YOUR_MEDIASTACK_KEY&keywords=football&countries=br,gb,de,it&categories=sports"
 
         // Request a string response from the provided URL.
         val newsArray = ArrayList<News>()
